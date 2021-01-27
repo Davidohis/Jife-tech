@@ -1,10 +1,10 @@
 <% include ./partials/css %>
 
-    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">Dashboard</a>
+    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark" >
+        <a class="navbar-brand" href="/">Dashboard</a>
         <!-- Navbar-->
         <ul class="navbar-nav ml-auto ml-md-0 ">    
-            <a class="nav-link bg-success text-white" href="/users/logout"><i class="fas fa-user fa-fw"></i> Logout</a>
+            <a class="nav-link bg-primary text-white" href="/users/logout"><i class="fas fa-user fa-fw"></i> Logout</a>
         </ul>
     </nav>
     <div id="layoutSidenav">
@@ -12,7 +12,7 @@
             <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
                 <div class="sb-sidenav-menu">
                     <div class="nav">
-                        <div class="sb-sidenav-menu-heading">Farm</div>
+                        <div class="sb-sidenav-menu-heading">Jife Platform</div>
                         <a class="nav-link" href="dashboard">
                             <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                             Dashboard
@@ -25,7 +25,7 @@
         </div>
 
         <div id="layoutSidenav_content">
-          <h4 class="text-dark mb-3">Welcome <%= user.name %></h4>
+          <h4 class="text-dark mb-3 mt-4 ml-3">Welcome <%= user.name %></h4>
             <main>
                 <div class="container-fluid">
                     <h1 class="mt-4">Dashboard</h1>
@@ -34,10 +34,10 @@
                     </ol>
                     <div class="row">
                         <div class="col-xl-3 col-md-6">
-                            <div class="card text-dark bg-secondary mb-4">
+                            <div class="card text-dark bg-primary mb-4">
                                <h1 class="text-center pt-3"><i class="fa fa-building" aria-hidden="true"></i></h1> 
                                 <div class="card-body font-weight-bold text-uppercase text-center">
-                                    <h3>Business plan</h3>
+                                    <h5>Programming</h5>
                                 </div>
                                 <div class="card-footer d-flex align-items-center justify-content-between">
                                     <p><a class="big text-dark stretched-link" href="#">View Details</a></p>
@@ -46,10 +46,10 @@
                             </div>
                         </div>
                         <div class="col-xl-3 col-md-6">
-                            <div class="card bg-success text-white mb-4">
+                            <div class="card bg-info text-white mb-4">
                                 <h1 class="text-center pt-3"><i class="fa fa-shopping-cart" aria-hidden="true"></i></h1>
                                 <div class="card-body font-weight-bold text-uppercase text-center">
-                                    <h3>Shop</h3>
+                                   <h5>Marketing</h5>
                                 </div>
                                 <div class="card-footer d-flex align-items-center justify-content-between">
                                     <p><a class="big text-white stretched-link" href="#">View Details</a></p>
@@ -61,7 +61,7 @@
                             <div class="card text-dark bg-secondary mb-4">
                                 <h1 class="text-center pt-3"><i class="fa fa-graduation-cap" aria-hidden="true"></i></h1>
                                 <div class="card-body font-weight-bold text-uppercase text-center">
-                                    <h3>Training</h3>
+                                    <h5>Designer</h5>
                                 </div>
                                 <div class="card-footer d-flex align-items-center justify-content-between">
                                     <p><a class="big text-white stretched-link" href="#">View Details</a></p>
@@ -73,10 +73,10 @@
                             <div class="card bg-success text-white mb-4">
                                 <h1 class="text-center pt-3"><i class="fa fa-book" aria-hidden="true"></i></h1>
                                 <div class="card-body font-weight-bold text-uppercase text-center">
-                                    <h3>Agro-Ebooks</h3>
+                                    <h4>SEO</h4>
                                 </div>
                                 <div class="card-footer d-flex align-items-center justify-content-between">
-                                    <p><a class="big text-white stretched-link" href="#">View Details</a></p>
+                                    <p><a class="big text-white stretched-link" href="/come">View Details</a></p>
                                     <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                                 </div>
                             </div>
