@@ -12,8 +12,8 @@ router.get('/dashboard', ensureAuthenticated, (req, res) =>
   })
 );
 
-router.get('/come', ensureAuthenticated, (req, res) =>
-  res.render('come', {
+router.get('/comingsoon', ensureAuthenticated, (req, res) =>
+  res.render('comingsoon', {
     user: req.user
   })
 );
